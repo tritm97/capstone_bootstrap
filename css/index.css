@@ -37,6 +37,10 @@ header {
   color: #DE5879;
 }
 
+.navbar-toggler {
+  background-color: #DE5879;
+}
+
 .nav-item {
   padding: 0 15px;
   transition: all 0.5s;
@@ -73,7 +77,6 @@ header {
 
 .navbar-nav .nav-item .dropdown-menu {
   transition: all 0.5s;
-  /* position: relative; */
 }
 
 .dropdown-menu .item_blog::before {
@@ -140,31 +143,6 @@ header {
   color: #DE5879;
   background-color: white;
 }
-
-/* a.dropdown-item:hover {
-  color: #DE5879;
-  background-color: white;
-}
-
-a.dropdown-item::before {
-  position: absolute;
-  content: '';
-  background: #DE5879;
-  width: 0px;
-  height: 2px;
-  bottom: 8px;
-  transition: all 0.5s;
-}
-
-a.dropdown-item:hover::before {
-  width: 20px;
-  position: absolute;
-  content: '';
-  background: #DE5879;
-  height: 2px;
-  bottom: 8px;
-  transition: all 0.5s;
-} */
 
 .header_search i {
   color: #5A5A5A;
@@ -572,9 +550,12 @@ a.dropdown-item:hover::before {
 }
 .m-d.expand-list > li{
   list-style-type: none;
-  padding: 15px 0;
-  border-bottom: 1px solid #212121;
+  padding: 20px 30px 20px 20px;
+  border: 1px solid #E2E6EA;
+  border-radius: 6px;
   position: relative;
+  background-color: white;
+  margin-bottom: 15px;
 }
 .m-d label[class^="tab"]:hover{
   cursor: pointer;
@@ -595,12 +576,14 @@ a.dropdown-item:hover::before {
 cursor: pointer;
 }
 .m-d label[class^="tab"]{
-  font-weight: bold;
+  font-size: 20px;
+  color: #212121;
 }
 .m-d .content{
   height: auto;
   max-height: 0;
-  max-width: 300px;
+  /* max-width: 300px; */
+  width: auto;
   overflow: hidden;
   transform: translateY(20px);
   transition: all 180ms ease-in-out 0ms; 
@@ -656,8 +639,10 @@ cursor: pointer;
 .m-d .open-close-icon{
   display: inline-block;
   position: absolute;
-  right: 20px;
+  right: 40px;
   transform: translatey(2px);
+  color: #212121;
+  font-weight: bold;
 }
 .m-d .open-close-icon i{
   position: absolute;
