@@ -670,13 +670,6 @@ cursor: pointer;
 }
 
 
-
-
-
-
-
-
-
 /* project */
 .project .project_top h6 {
   font-size: 16px;
@@ -729,6 +722,78 @@ cursor: pointer;
   font-size: 16px;
   line-height: 22.5px;
   font-weight: 400;
+}
+
+/* our slick carousel  */
+.our .our_item {
+  background-color: white;
+  border-radius: 6px;
+  max-width: 95%;
+  margin: 0 15px;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 50px;
+}
+
+.our .our_item_img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f3f6f9;
+  border-radius: 50%;
+  border: 3px solid #DE5879;
+}
+
+.our .our_item_content {
+  position: relative;
+}
+
+.our .our_item_content i {
+  font-size: 30px;
+  color: #2C3038;
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  right: 0;
+}
+
+.our .our_item_content p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #2C3038;
+}
+
+.our .our_item_content .name h4 {
+  font-size: 18px;
+  color: #DE5879;
+  font-weight: 400;
+}
+
+.our .our_item_content .name p {
+  font-size: 13px;
+  color: #5A5A5A;
+}
+
+.our .slick-dots li.slick-active button:before {
+  background-color: #DC4F72;
+}
+
+.our .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 5px;
+  content: '';
+  text-align: center;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ready  */
