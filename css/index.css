@@ -24,6 +24,10 @@ header {
   z-index: 10;
 }
 
+.navbar-nav .nav-link.active {
+  color: #DE5879;
+}
+
 .navbar-brand {
   margin: 0;
   padding: 0;
