@@ -440,8 +440,8 @@ header {
 }
 
 .help_contact .help_contact_info {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .help_contact_info .contact_info {
@@ -686,3 +686,9 @@ header {
 /* .cd-top--fade-out {
   opacity: .5;
 } */
+
+@media screen and (max-width: 992px) {
+  .contact_bottom .contact_form {
+    left: 0;
+  }
+}
