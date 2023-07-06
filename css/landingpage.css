@@ -1530,3 +1530,9 @@ cursor: pointer;
 /* .cd-top--fade-out {
   opacity: .5;
 } */
+
+@media screen and (max-width: 992px) {
+  .contact_bottom .contact_form {
+    left: 0;
+  }
+}
