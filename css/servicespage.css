@@ -302,6 +302,85 @@ header {
     text-decoration: underline;
 }
 
+/* right sidebar  */
+.sidebar_angle_right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 150px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+
+.sidebar_angle_right i {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.clear {
+  clear: both;
+}
+
+.right_sidebar {
+  width: 90px;
+  position: fixed;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 140px;
+  overflow-y: auto;
+}
+
+.right_sidebar .right_sidebar_item {
+  padding: 40px 5px 10px;
+  padding-top: 70px;
+  background: #0D1326;
+  border-radius: 9px 0 0 9px;
+}
+
+.right_sidebar .right_sidebar_button {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+
+.right_sidebar .right_sidebar_button a {
+  display: block;
+  color: #e6ebff;
+  text-decoration: none;
+  line-height: 24px;
+  opacity: 0.6;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.right_sidebar .right_sidebar_button a:hover {
+  opacity: 1;
+}
+
+.right_sidebar_icon {
+  display: block;
+}
+
+.right_sidebar .right_sidebar_button .right_sidebar_icon i {
+  position: static;
+  color: #e6ebff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
 /* our_services */
 
 .our_services .services_top, .products .products_top, .features .features_top {
