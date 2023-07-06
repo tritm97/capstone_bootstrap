@@ -287,6 +287,8 @@ header {
     margin-top: 90px;
     padding: 15px 20px;
     background: #F7F9FC;
+    font-size: 14px;
+    color: #2C3038;
 }
 
 .breadcrumbs a {
